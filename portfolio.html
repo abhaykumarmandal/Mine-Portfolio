@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!-- Header Section Starting -->
+
+<head>
+
+   <title>Portfolio</title>
+     <link rel="stylesheet" href="portfolio.css">
+     <script src="https://kit.fontawesome.com/3499279ad0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Abhay</span> Kumar<br> Mandal from Nepal</h1>
+        </div>
+    </div>
+ </div>
+ <!-- Header Section Closing -->
+
+
+<!-- About Section Begins -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="d.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Web developer with expertise in creating innovative and user-friendly websites. Skilled in HTML,
+                    CSS, JavaScript, and various web development tools. Committed to deliver high-quality work
+                    with exceptional attention to detail. Passionate about exploring new technologies and finding
+                    creative solutions to complex problems.</p>
+                <ul>
+                    <li class="tab-links active-link" onclick="openTab('skills')">Skills</li>
+                    <li class="tab-links" onclick="openTab('education')">Education</li>
+                    <li class="tab-links" onclick="openTab('experiences')">Experiences</li>
+                </ul>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <h3 class="bgcolor">Web Designing</h3>
+                    <p>Creating Innovative Designs</p>
+
+                    <h3 class="bgcolor">Entrepreneurship</h3>
+                    <p>Using technology for earning</p>
+
+                    <h3 class="bgcolor">Graphics Designing</h3>
+                    <p>Designing posters, banners etc... </p>
+
+                </div>
+
+                <div class="tab-contents education" id="education">
+                    <h3 class="bgcolor">2021 - Present</h3>
+                    <p>B.Tech in CSCE | KIIT University, Bhubaneswar Odisha</p>
+
+                    <h3 class="bgcolor">2019 - 2021</h3>
+                    <p>Intermediate | Mithila Institute Of Technology, Janakpurdham Nepal</p>
+
+                    <h3 class="bgcolor">2019</h3>
+                    <p>Matriculation | Modern English Secondary Boarding School, Janakpurdham Nepal</p>
+
+                </div>
+
+                <div class="tab-contents experiences" id="experiences">
+                    <h3 class="bgcolor">Teachnook</h3>
+                    <p>Works as a Campus Ambassdor(28/11/2022-20/01/2023)</p>
+                    <h3 class="bgcolor">Certificates
+                        <a href=""><i class="fa-solid fa-file-certificate"></i></a>
+                    </h3>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- About Section Closing -->
+
+<!-- Services Section Starting -->
+  <div id="services">
+    <div id="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>We provide responsive web page designing which response mobile as mobile view, laptop as laptop view. 
+                   </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>We provide web view andriod apps as well as makes you easy to access throughout your own mobile or 
+                    tablet with affordable price.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-icons"></i>
+                <h2>24/7 support</h2>
+                <p>We care our customers, we provide after sales support at any point time as per customer requirements.</p>
+                <a href="#">Learn more</a>
+            </div>
+           
+        </div>
+    </div>
+  </div>    
+<!-- Services Section Closing -->
+
+
+
+<!-- Portfolio Section Starting -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects you to go talented peopele in the world.
+                        Download it from playstore.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>This app connects you to go talented peopele in the world.
+                        Download it from playstore.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>This app connects you to go talented peopele in the world.
+                        Download it from playstore.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="button">See More</a>
+    </div>
+</div>
+<!-- Portfolio Section Closing -->
+
+
+
+<!-- Contact Section Closing -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane fa-beat-fade"></i>212936@kiit.ac.in</p>
+                <p><i class="fa-sharp fa-solid fa-phone fa-beat-fade"></i></i></i>8102037745</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/abhay.mandal.143?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/___itsmeabhay__?igshid=MzNlNGNkZWQ4Mg== "><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/abhay-kumar-mandal-90879223a "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.snapchat.com/add/beast_01438?share_id=n3t45a3Ujec&locale=en-IN "><i class="fa-brands fa-square-snapchat"></i></a>
+                   
+                </div>
+                <a href="My Resume.pdf" download  class="button button2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                    <input type="email" name="Email" placeholder="Enter Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                    <button type="submit" class="button button2">Submit</button>
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©. | All rights reserved.</p>
+    </div>
+</div>
+
+
+<!-- Contact Section Closing -->
+
+<script>
+    var tabLinks = document.getElementsByClassName('tab-links');
+var tabContents = document.getElementsByClassName('tab-contents');
+
+function openTab(tabName) {
+    
+    for(let tabLink of tabLinks) {
+        tabLink.classList.remove("active-link");
+    }
+
+    for(let tabContent of tabContents) {
+        tabContent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabName).classList.add('active-tab');
+}
+</script>
+
+
+
+    
+ <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+ </script>
+ <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+ <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+ <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+ <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbxt0StLT6M9BP1zsSY5QLkQLT-QIwvcWgn03b-PWTGS83EiSl5-Q4_quTYWP3Le-G-Msg/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
